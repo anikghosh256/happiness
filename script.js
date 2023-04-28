@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   for (let i = 1; i < frameCount+1; i++) {
     const img = new Image();
-    img.src = `/images/frames/${i}.png`;
+    img.src = `./images/frames/${i}.png`;
     images.push(img);
   }
 
